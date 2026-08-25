@@ -1,14 +1,13 @@
 # TAAC 2026 Industrial Track — 15th Place Solution
 
-This repository releases the highest-scoring V-series single-model solution
-from our final-round experiments for post-click CVR prediction. Given user
-features, item features, and four behavior-sequence domains, the model
-predicts whether a clicked impression converts.
+This repository releases our highest-scoring final-round single-model solution
+for post-click CVR prediction. Given user features, item features, and four
+behavior-sequence domains, the model predicts whether a clicked impression
+converts.
 
 > **Final-round public leaderboard AUC: 0.825625**
 >
-> Experiment: `V19_AsymSeqAHeavy_LongRecipe_NSDrop010` (evaluation ID
-> `139174`, 2026-06-23).
+> Final-round evaluation ID `139174` (2026-06-23).
 
 The competition data, checkpoints, submission credentials, and platform
 scripts are deliberately not included.
@@ -49,7 +48,7 @@ model.py     # PCVRHyFormer model and tokenization modules
 trainer.py   # training loop, AMP, EMA, DDP Join, checkpointing
 train.py     # training entry point and configuration
 infer.py     # checkpoint reconstruction and inference
-run.sh       # V19 training recipe and multi-GPU launcher
+run.sh       # final training recipe and multi-GPU launcher
 ```
 
 ## Setup
@@ -108,7 +107,7 @@ python infer.py
 The reported score is a public-leaderboard result from the stated competition
 evaluation. Exact reproduction can vary with hardware, PyTorch/CUDA versions,
 randomness, and the competition platform's data/runtime environment. This
-repository contains the V19 code and recipe, but not model weights or data.
+repository contains the final code and recipe, but not model weights or data.
 
 ## License
 
