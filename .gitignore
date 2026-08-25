@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Data and derived artifacts
+data/
+*.parquet
+*.arrow
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+outputs/
+logs/
+runs/
+events.out.tfevents.*
+*.log
+predictions.json
+
+# Secrets and local configuration
+.env
+.env.*
+*cookie*
+*credential*
+*secret*
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
