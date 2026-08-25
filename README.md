@@ -1,4 +1,4 @@
-# TAAC 2026 UniRec Challenge — V19 single model
+# TAAC 2026 Industrial Track — 15th Place Solution
 
 This repository releases the highest-scoring V-series single-model solution
 from our final-round experiments for post-click CVR prediction. Given user
