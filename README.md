@@ -1,7 +1,7 @@
 # TAAC 2026 Industrial Track — 15th Place Solution
 
 This repository releases our highest-scoring final-round single-model solution
-for post-click CVR prediction. Given user features, item features, and four
+for pCVR prediction. Given user features, item features, and four
 behavior-sequence domains, the model predicts whether a clicked impression
 converts.
 
